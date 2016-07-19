@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15A2301" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewIdentifierID" id="gTV-IL-0wX" customClass="XZCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="317" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="317" height="200"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="drs-x0-4Pw">
+                        <rect key="frame" x="0.0" y="0.0" width="317" height="200"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcM-VQ-0J5">
+                        <rect key="frame" x="18" y="171" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOd-nx-vUp">
+                        <rect key="frame" x="8" y="16" width="40" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="SuV-Yw-ybm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="live" image="icon_online"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tDW-6O-d8D">
+                        <rect key="frame" x="67" y="16" width="50" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="3Dx-6F-Jlw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="1700" image="icon_online"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="SOd-nx-vUp" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="1Va-F6-hlD"/>
+                <constraint firstAttribute="trailing" secondItem="drs-x0-4Pw" secondAttribute="trailing" id="4nT-nb-r0K"/>
+                <constraint firstAttribute="bottom" secondItem="mcM-VQ-0J5" secondAttribute="bottom" constant="8" id="7Tf-Sq-J0i"/>
+                <constraint firstAttribute="bottom" secondItem="drs-x0-4Pw" secondAttribute="bottom" id="7qK-0A-SKG"/>
+                <constraint firstItem="drs-x0-4Pw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Uu1-HG-msc"/>
+                <constraint firstItem="SOd-nx-vUp" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="16" id="Zib-Ks-GTh"/>
+                <constraint firstItem="tDW-6O-d8D" firstAttribute="leading" secondItem="SOd-nx-vUp" secondAttribute="trailing" constant="19" id="bil-xU-4Nw"/>
+                <constraint firstItem="drs-x0-4Pw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="dzc-a6-T2I"/>
+                <constraint firstItem="mcM-VQ-0J5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="18" id="euv-Us-Pkf"/>
+                <constraint firstItem="tDW-6O-d8D" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="16" id="uQ5-D2-0OX"/>
+            </constraints>
+            <size key="customSize" width="317" height="200"/>
+            <connections>
+                <outlet property="imgView" destination="drs-x0-4Pw" id="30Q-9Y-4SX"/>
+                <outlet property="number" destination="tDW-6O-d8D" id="k5i-89-Drm"/>
+                <outlet property="online" destination="SOd-nx-vUp" id="ZnQ-KT-eSW"/>
+                <outlet property="title" destination="mcM-VQ-0J5" id="AyR-wc-xyB"/>
+            </connections>
+            <point key="canvasLocation" x="346.5" y="329"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_online" width="8" height="8"/>
+    </resources>
+</document>

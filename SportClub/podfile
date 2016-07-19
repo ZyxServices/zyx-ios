@@ -1,0 +1,13 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'SportClub' do
+  pod 'SDWebImage'
+  pod 'SVProgressHUD'
+  pod "MJExtension"
+  pod 'pop', '~> 1.0' 
+  pod 'Masonry'
+  pod 'AFNetworking'
+  pod 'SDCycleScrollView','~> 1.64'
+  pod 'ReactiveCocoa'
+end
