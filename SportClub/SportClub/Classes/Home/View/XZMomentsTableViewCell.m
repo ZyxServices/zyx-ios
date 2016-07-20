@@ -21,6 +21,10 @@
         cell = [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil] lastObject];
         
     }
+    if (dataArray.count<3) {
+        return cell;
+    }
+    
     NSDictionary *dict = dataArray[indexPath.row - 3];
 //    cell.name.text = [dict objectForKey:@""];
     cell.title.text = [dict objectForKey:@"title"];

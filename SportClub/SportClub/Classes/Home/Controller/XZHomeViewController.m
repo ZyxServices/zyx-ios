@@ -104,8 +104,8 @@
         activityDevas = json[@"data"][@"activtyDevas"];//首页活动
         concernDevas = json[@"data"][@"concerDevas"];//首页动态
 
-        if(![cirleDevas isKindOfClass:[NSArray class]] || ![liveDevas isKindOfClass:[NSArray class]] || ![userDevas isKindOfClass:[NSArray class]] || ![liveWatchNums isKindOfClass:[NSArray class]] || ![activityDevas isKindOfClass:[NSArray class]] || ![concernDevas isKindOfClass:[NSArray class]]) {
-//            cirleDevas = [NSArray array];
+        if(![cirleDevas isKindOfClass:[NSArray class]] || ![liveDevas isKindOfClass:[NSArray class]] || ![userDevas isKindOfClass:[NSArray class]] || ![liveWatchNums isKindOfClass:[NSDictionary class]] || ![activityDevas isKindOfClass:[NSArray class]] || ![concernDevas isKindOfClass:[NSArray class]]) {
+            cirleDevas = [NSArray array];
             liveDevas = [NSArray array];
             liveWatchNums = [NSDictionary dictionary];
             userDevas = [NSArray array];

@@ -80,6 +80,13 @@
 		956B7CC31D3E015A008018A4 /* ColorUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 956B7CBF1D3E015A008018A4 /* ColorUtility.m */; };
 		956B7CC41D3E015A008018A4 /* CommualHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 956B7CC11D3E015A008018A4 /* CommualHeaderView.m */; };
 		956B7CC51D3E015A008018A4 /* CommualHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 956B7CC21D3E015A008018A4 /* CommualHeaderView.xib */; };
+		956C93CA1D3F14960050E678 /* XZAttentionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 956C93C81D3F14960050E678 /* XZAttentionTableViewController.m */; };
+		956C93CF1D3F157B0050E678 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956C93CE1D3F157B0050E678 /* Discover.storyboard */; };
+		956C93D21D3F168C0050E678 /* XZAttentionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 956C93D11D3F168C0050E678 /* XZAttentionTableViewCell.m */; };
+		956C93D81D3F45220050E678 /* XZStarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 956C93D71D3F45220050E678 /* XZStarTableViewController.m */; };
+		956C93DB1D3F486E0050E678 /* XZStarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 956C93DA1D3F486E0050E678 /* XZStarTableViewCell.m */; };
+		956C93DE1D3F4AED0050E678 /* XZFeaturedCircleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 956C93DD1D3F4AED0050E678 /* XZFeaturedCircleTableViewController.m */; };
+		956C93E41D3F63970050E678 /* XZFeatureCircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 956C93E31D3F63970050E678 /* XZFeatureCircleTableViewCell.m */; };
 		9575A0461D35DE0B00B1BEE3 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575A0451D35DE0B00B1BEE3 /* UIColor+Hex.m */; };
 		9575A04A1D35E4AA00B1BEE3 /* XZMyFansTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575A0481D35E4AA00B1BEE3 /* XZMyFansTableViewCell.m */; };
 		9575A04B1D35E4AA00B1BEE3 /* XZMyFansTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9575A0491D35E4AA00B1BEE3 /* XZMyFansTableViewCell.xib */; };
@@ -226,6 +233,19 @@
 		956B7CC01D3E015A008018A4 /* CommualHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommualHeaderView.h; sourceTree = "<group>"; };
 		956B7CC11D3E015A008018A4 /* CommualHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommualHeaderView.m; sourceTree = "<group>"; };
 		956B7CC21D3E015A008018A4 /* CommualHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommualHeaderView.xib; sourceTree = "<group>"; };
+		956C93C71D3F14960050E678 /* XZAttentionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZAttentionTableViewController.h; sourceTree = "<group>"; };
+		956C93C81D3F14960050E678 /* XZAttentionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZAttentionTableViewController.m; sourceTree = "<group>"; };
+		956C93CE1D3F157B0050E678 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		956C93D01D3F168C0050E678 /* XZAttentionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZAttentionTableViewCell.h; path = SportClub/Classes/Discover/Controller/XZAttentionTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		956C93D11D3F168C0050E678 /* XZAttentionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZAttentionTableViewCell.m; path = SportClub/Classes/Discover/Controller/XZAttentionTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		956C93D61D3F45220050E678 /* XZStarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZStarTableViewController.h; sourceTree = "<group>"; };
+		956C93D71D3F45220050E678 /* XZStarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZStarTableViewController.m; sourceTree = "<group>"; };
+		956C93D91D3F486E0050E678 /* XZStarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZStarTableViewCell.h; path = SportClub/Classes/Discover/Controller/XZStarTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		956C93DA1D3F486E0050E678 /* XZStarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZStarTableViewCell.m; path = SportClub/Classes/Discover/Controller/XZStarTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		956C93DC1D3F4AED0050E678 /* XZFeaturedCircleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZFeaturedCircleTableViewController.h; sourceTree = "<group>"; };
+		956C93DD1D3F4AED0050E678 /* XZFeaturedCircleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZFeaturedCircleTableViewController.m; sourceTree = "<group>"; };
+		956C93E21D3F63970050E678 /* XZFeatureCircleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XZFeatureCircleTableViewCell.h; path = SportClub/Classes/Discover/Controller/XZFeatureCircleTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		956C93E31D3F63970050E678 /* XZFeatureCircleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XZFeatureCircleTableViewCell.m; path = SportClub/Classes/Discover/Controller/XZFeatureCircleTableViewCell.m; sourceTree = SOURCE_ROOT; };
 		9575A0441D35DE0B00B1BEE3 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		9575A0451D35DE0B00B1BEE3 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		9575A0471D35E4AA00B1BEE3 /* XZMyFansTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMyFansTableViewCell.h; sourceTree = "<group>"; };
@@ -358,6 +378,13 @@
 			children = (
 				8E83965D1D0D085700059703 /* XZDiscoverViewController.h */,
 				8E83965E1D0D085700059703 /* XZDiscoverViewController.m */,
+				956C93C71D3F14960050E678 /* XZAttentionTableViewController.h */,
+				956C93C81D3F14960050E678 /* XZAttentionTableViewController.m */,
+				956C93D61D3F45220050E678 /* XZStarTableViewController.h */,
+				956C93D71D3F45220050E678 /* XZStarTableViewController.m */,
+				956C93DC1D3F4AED0050E678 /* XZFeaturedCircleTableViewController.h */,
+				956C93DD1D3F4AED0050E678 /* XZFeaturedCircleTableViewController.m */,
+				956C93CE1D3F157B0050E678 /* Discover.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -372,6 +399,12 @@
 		8E0BDF611D0CFE5C00827767 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				956C93D01D3F168C0050E678 /* XZAttentionTableViewCell.h */,
+				956C93D11D3F168C0050E678 /* XZAttentionTableViewCell.m */,
+				956C93D91D3F486E0050E678 /* XZStarTableViewCell.h */,
+				956C93E21D3F63970050E678 /* XZFeatureCircleTableViewCell.h */,
+				956C93E31D3F63970050E678 /* XZFeatureCircleTableViewCell.m */,
+				956C93DA1D3F486E0050E678 /* XZStarTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -880,6 +913,7 @@
 				8ED5EF8A1D2BA45200E22D19 /* XRedTimelineCollectionViewCell.xib in Resources */,
 				8E8396D11D0E8DFD00059703 /* composer_close.wav in Resources */,
 				8EA1C5D31D178FAA0015FFF2 /* XZLogRegisterViewController.xib in Resources */,
+				956C93CF1D3F157B0050E678 /* Discover.storyboard in Resources */,
 				8E8396D31D0E8DFD00059703 /* composer_select.wav in Resources */,
 				8E18E03B1D1944640074FB65 /* MBProgressHUD.bundle in Resources */,
 				8EA1C5ED1D1817A70015FFF2 /* XZForgetPasswordViewController.xib in Resources */,
@@ -961,6 +995,7 @@
 				9586EF0F1D3736280041C7C5 /* XZButtonOC.m in Sources */,
 				8E0BDF801D0D019700827767 /* XZTabBarViewController.m in Sources */,
 				95312BCE1D33668F00514501 /* XZMyCollectTableViewCell.m in Sources */,
+				956C93D81D3F45220050E678 /* XZStarTableViewController.m in Sources */,
 				8E83966B1D0D099000059703 /* XZUITabBar.m in Sources */,
 				8E18E03C1D1944640074FB65 /* MBProgressHUD.m in Sources */,
 				8ED5EF891D2BA45200E22D19 /* XRedTimelineCollectionViewCell.m in Sources */,
@@ -968,6 +1003,7 @@
 				8E0BDF791D0CFE5C00827767 /* main.m in Sources */,
 				8EA1C5D61D17D03D0015FFF2 /* XZVerticalButton.m in Sources */,
 				9586EF0C1D3735D60041C7C5 /* XZViewOC.m in Sources */,
+				956C93D21D3F168C0050E678 /* XZAttentionTableViewCell.m in Sources */,
 				8E83965F1D0D085700059703 /* XZDiscoverViewController.m in Sources */,
 				9575A0531D35F5F500B1BEE3 /* XZPersonalSetTableViewController.m in Sources */,
 				8EA1C5DD1D1806BE0015FFF2 /* XZRegisterUserViewController.m in Sources */,
@@ -980,8 +1016,10 @@
 				8EA1C5E21D180FC70015FFF2 /* XZAgreementViewController.m in Sources */,
 				9575A05C1D36369E00B1BEE3 /* XZEditShippingTableViewController.m in Sources */,
 				8EDC57F81D23C95100CE06D7 /* XZHomeHeaderView.m in Sources */,
+				956C93E41D3F63970050E678 /* XZFeatureCircleTableViewCell.m in Sources */,
 				8EA1C5F11D1817DC0015FFF2 /* XZVerifyViewController.m in Sources */,
 				8EDC584D1D2615BE00CE06D7 /* XZCollectionViewCell.m in Sources */,
+				956C93CA1D3F14960050E678 /* XZAttentionTableViewController.m in Sources */,
 				9575A05F1D3648DF00B1BEE3 /* XZPersonalOrderViewController.m in Sources */,
 				8EA1C5EC1D1817A70015FFF2 /* XZForgetPasswordViewController.m in Sources */,
 				8E8396651D0D088300059703 /* XZLiveViewController.m in Sources */,
@@ -995,8 +1033,10 @@
 				95312BCB1D33668F00514501 /* XZMyCircleTableViewCell.m in Sources */,
 				8EA1C5D91D1800FB0015FFF2 /* XZTextField.m in Sources */,
 				8E18E0301D1936290074FB65 /* CommonCallback.m in Sources */,
+				956C93DB1D3F486E0050E678 /* XZStarTableViewCell.m in Sources */,
 				8E8396841D0E55FD00059703 /* HyPopMenuView.m in Sources */,
 				956B7CBD1D3E0146008018A4 /* HMSegmentedControl.m in Sources */,
+				956C93DE1D3F4AED0050E678 /* XZFeaturedCircleTableViewController.m in Sources */,
 				8E8396711D0D5E1A00059703 /* UIBarButtonItem+Extension.m in Sources */,
 				8EA1C5D21D178FAA0015FFF2 /* XZLogRegisterViewController.m in Sources */,
 				9586EF121D3739C80041C7C5 /* XZImageOC.m in Sources */,

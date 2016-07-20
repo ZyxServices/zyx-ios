@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XZDiscoverViewController : UITabBarController
+@interface XZDiscoverViewController : UIViewController
 
 @end
